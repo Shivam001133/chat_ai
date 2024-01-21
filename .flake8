@@ -1,0 +1,4 @@
+[flake8]
+ignore = E203, E266, E501, W503
+exclude = .git,__pycache__,venv,migrations,settings.py,manage.py,asgi.py,wsgi.py,urls.py,tests.py,conftest.py,pytest.ini,requirements.txt,README.md,Procfile
+max-line-length = 88
