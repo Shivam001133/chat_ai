@@ -62,6 +62,9 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    # addisnal files
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.contrib.auth.midddleware.AuthenticationMiddleware',
 ]
 
 CSRF_TRUSTED_ORIGINS = [
