@@ -64,8 +64,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     # addisnal files
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.contrib.auth.midddleware.AuthenticationMiddleware',
-]
+    ]
 
 CSRF_TRUSTED_ORIGINS = [
     'https://appname.herokuapp.com'
